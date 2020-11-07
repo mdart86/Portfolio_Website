@@ -1,0 +1,201 @@
+/* ACROSS PAGE STYLING */
+
+body {
+    background-color: rgb(155, 232, 255);
+}
+
+.header {
+    position: relative;
+}
+
+.header img {
+    border-radius: 5px 5px 70px 70px;
+    max-width: 100%;
+}
+
+.title {
+    position: absolute;
+    display: inline-block;
+    top: 8px;
+    left: 40px;
+    color: rgb(172, 204, 240);
+    font-size: 3vw;
+    font-family: 'Fredoka One', cursive;
+    background-color: rgb(77, 77, 77);
+    border-radius: 10px;
+    padding: 4px 10px 4px 10px;
+ }
+
+.navbar {
+    border-radius: 15px;
+    margin-top: 10px;
+    background-color: rgb(24, 131, 99);
+    width: 100%;
+    overflow: auto;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li {
+    float: center;
+    font-size: 25px;
+    font-weight: 400;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.navbar li a {
+    float: left;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    width: 25%;
+}
+
+li a:hover {
+    background-color: rgb(9, 243, 165);
+}
+
+.active {
+    background-color: rgb(9, 243, 165);
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+footer {
+    display: flex;
+    justify-content: center; 
+    font-family: 'Varela Round', sans-serif;
+}
+
+/* HOME PAGE STYLING */
+
+h2  {
+    text-align: center;
+    font-size: 2.5rem;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.introbox {
+    display: flex;
+    border-radius: 50px;
+    background-color: whitesmoke;
+}
+
+.my-picture {
+    display: flex;
+    border-radius: 50px;
+    width: 35%;
+    height: auto;
+}
+
+figcaption {
+    font-style: italic;
+    justify-content: left;
+    align-content: bottom;
+}
+
+.introbox p {
+    display: flex;
+    border-radius: 50px;
+    align-self: center;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 2rem;
+    padding-left: 50px;
+}
+
+/* CONTACT ME PAGE STYLING */
+
+.contact-me-heading {
+    display: flex;
+    justify-content: center;
+    font-family: 'Architects Daughter', cursive;
+    font-size: 3rem;
+}
+
+.contact-me-paragraph {
+    display: flex;
+    justify-content: center;
+    font-family: 'Architects Daughter', cursive;
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    max-height: auto;
+}
+
+.fname {
+    display: inline-flex;
+    justify-content: center;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 1rem;
+}
+
+.lname {
+    display: inline-flex;
+    justify-content: center;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 1rem;
+}
+
+.email {
+    display: inline-flex;
+    justify-content: center;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 1rem;
+}
+
+.textarea {
+    display: block;
+    font-size: 1.5rem;
+}
+
+textarea {
+    font-family: 'Varela Round', sans-serif;
+}
+
+.submit {
+    display: flex;
+    justify-content: center;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.connect-with-me {
+    display: flex;
+    justify-content: center;
+    font-family: 'Architects Daughter', cursive;
+    font-size: 3rem;
+}
+
+.social-media-box {
+    display: flex;
+    justify-content: center;
+    max-width: 70%;
+    /* look at flex on smaller screens */
+    flex-wrap: wrap;
+    background-color: white;
+    border-radius: 20px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.social-media {
+    max-width: 250px;
+    max-height: auto;
+    padding: 30px;
+}
+
+.social-media-box a:hover {
+    background-color: rgb(180, 232, 248);
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    border-radius: 20px;
+}
