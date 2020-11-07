@@ -57,6 +57,7 @@ ul {
 
 li a:hover {
     background-color: rgb(9, 243, 165);
+    height: 100%;
 }
 
 .active {
@@ -90,12 +91,6 @@ h2  {
     border-radius: 50px;
     width: 35%;
     height: auto;
-}
-
-figcaption {
-    font-style: italic;
-    justify-content: left;
-    align-content: bottom;
 }
 
 .introbox p {
