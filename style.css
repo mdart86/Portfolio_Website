@@ -17,9 +17,9 @@ body {
     position: absolute;
     display: inline-block;
     top: 8px;
-    left: 40px;
+    left: 20px;
     color: rgb(172, 204, 240);
-    font-size: 3vw;
+    font-size: 2.5vh;
     font-family: 'Fredoka One', cursive;
     background-color: rgb(77, 77, 77);
     border-radius: 10px;
@@ -41,8 +41,7 @@ ul {
 }
 
 .navbar li {
-    float: center;
-    font-size: 1.5rem;
+    font-size: 2.10vh;
     font-weight: 400;
     font-family: 'Varela Round', sans-serif;
 }
@@ -61,57 +60,67 @@ li a:hover {
 
 .active {
     background-color: rgb(9, 243, 165);
-    font-weight: 900;
-    text-transform: uppercase;
+    font-weight: 700;
 }
 
-footer {
-    display: flex;
-    justify-content: center; 
+h2  {
+    text-align: center;
+    font-size: 2.5vh;
     font-family: 'Varela Round', sans-serif;
-    margin-top: 50px;
+}
+
+.footer {
+    text-align: center;    
+    font-family: 'Varela Round', sans-serif;
+    margin-top: 10vh;
+    background-color: rgb(111, 207, 252);
+    padding-top: .5vh;
+    padding-bottom: .5vh;
+    border-radius: 5px;
 }
 
 /* ACROSS PAGE STYLING - END */
 /* HOME PAGE STYLING - START */
 
 .introbox {
-    display: flex;
-    border-radius: 50px;
+    justify-content: center;
+    border-radius: 30px;
     background-color: whitesmoke;
 }
 
-.my-picture {
-    display: flex;
-    border-radius: 50px;
-    width: 35%;
-    height: auto;
+.introbox img {
+    justify-content: center;
+    width: 80%;
+    margin: 10%;
+    border-radius: 30px;
 }
 
 .introbox p {
-    display: flex;
-    border-radius: 50px;
-    align-self: center;
+    border-radius: 30px;
+    text-align: center;    
     font-family: 'Varela Round', sans-serif;
-    font-size: 2rem;
-    padding-left: 50px;
+    font-size: 3vh;
+    padding-top: 2vh;
+    padding-bottom: 4vh;
 }
 
 /* HOME PAGE STYLING - END */
 /* ABOUT ME PAGE STLYING - START */
 
-h2  {
+.aboutmepage {
     text-align: center;
-    font-size: 2.5rem;
-    font-family: 'Varela Round', sans-serif;
+    font-size: 4vh;
+    margin-top: 5vh;
 }
 
-p {
-    font-family: 'Varela Round', sans-serif;
+.worklist {
+    padding-top: 8px;
 }
 
-li {
+p, .worklist {
+    text-align: center;
     font-family: 'Varela Round', sans-serif;
+    font-size: 2.5vh;
 }
 
 /* ABOUT ME PAGE STLYING - END */
@@ -119,44 +128,39 @@ li {
 
 
 .post-grid {
-    display: grid;
-    grid-template-columns: 45% 45%;
-    grid-template-rows: 800px 800px;
-    grid-column-gap: 5%; 
-    grid-row-gap: 100px;
+    display: flex;
+    flex-direction: column; 
+    width: 85%;   
     padding: 5%;
     /* border: white 5px solid; */
 }
 
 .post1 {
     text-align: center;
-    font-size: 1rem;
+    font-size: 2vh;
     /* border: black 5px solid; */
 }
 
 .post2 {
-    justify-self: center;
+    text-align: center;
     align-self: center;
-    font-size: 1rem;
     /* border: black 5px solid; */
 }
 
 .post3 {
-    justify-self: center;
+    text-align: center;
     align-self: center;
-    font-size: 1rem;
     /* border: black 5px solid; */
 }
 
 .post4 {
-    justify-self: center;
+    text-align: center;
     align-self: center;
-    font-size: 1rem;
     /* border: black 5px solid; */
 }
 
 .post1 h2  {
-    font-size: 1.5rem;
+    font-size: 2.5vh;
     font-family: 'Varela Round', sans-serif;
 }
 
@@ -165,8 +169,8 @@ li {
     height: auto;
 }
 
-.pending-image img {
-    width:  80%;
+.pending-image {
+    width:  70%;
     height: auto;
 }
 
@@ -175,51 +179,44 @@ li {
 /* CONTACT ME PAGE STYLING - START */
 
 .contact-me-heading {
-    display: flex;
-    justify-content: center;
+    text-align: center;    
     font-family: 'Architects Daughter', cursive;
-    font-size: 3rem;
+    font-size: 3.5vh;
+    font-weight: 400;
+    margin-top: 2vh;
 }
 
 .contact-me-paragraph {
     display: flex;
-    justify-content: center;
+    text-align: center;    
     font-family: 'Architects Daughter', cursive;
-    font-size: 1.5rem;
-    margin-bottom: 30px;
+    font-size: 2vh;
+    margin-bottom: 2vh;
 }
 
 .form {
     display: flex;
-    justify-content: center;
-    max-width: 100%;
-    max-height: auto;
+    flex-direction: column;
+    text-align: center;    
 }
 
 .fname {
-    display: inline-flex;
-    justify-content: center;
     font-family: 'Varela Round', sans-serif;
-    font-size: 1rem;
+    font-size: 2.5vh;
 }
 
 .lname {
-    display: inline-flex;
-    justify-content: center;
     font-family: 'Varela Round', sans-serif;
-    font-size: 1rem;
+    font-size: 2.5vh;
 }
 
 .email {
-    display: inline-flex;
-    justify-content: center;
     font-family: 'Varela Round', sans-serif;
-    font-size: 1rem;
+    font-size: 2.5vh;
 }
 
 .textarea {
-    display: block;
-    font-size: 1.5rem;
+    font-size: 2.5vh;
 }
 
 textarea {
@@ -233,35 +230,33 @@ textarea {
 }
 
 .connect-with-me {
-    display: flex;
-    justify-content: center;
+    text-align: center;    
     font-family: 'Architects Daughter', cursive;
-    font-size: 3rem;
+    font-size: 3vh;
 }
 
 .social-media-box {
     display: flex;
-    justify-content: center;
-    max-width: 70%;
-    /* look at flex on smaller screens */
-    flex-wrap: wrap;
+    flex-direction: column;
+    width: 80%;
+    height: auto;
     background-color: white;
     border-radius: 20px;
     margin: 0 auto;
-    padding: 10px;
+    padding: 10%;
+    text-align: center;    
 }
 
 .social-media {
-    max-width: 250px;
-    max-height: auto;
-    padding: 30px;
+    width: 80%;
+    padding: 10%;
+    border-radius: 20px;
 }
 
 .social-media-box a:hover {
     background-color: rgb(180, 232, 248);
-    display: flex;
-    justify-content: center;
-    max-width: 100%;
+    width: 80%;
+    padding: 10%;
     border-radius: 20px;
 }
 
