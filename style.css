@@ -79,6 +79,25 @@ h2  {
     border-radius: 5px;
 }
 
+/* ACROSS PAGE STYLING FOR TABLET - START */
+@media screen and (min-width: 1090px) {
+    .title {
+        font-size: 7vh;
+    }
+
+    .navbar li {
+        font-size: 4vh;
+        font-weight: 500;
+    }
+
+    .active {
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+}
+/* ACROSS PAGE STYLING FOR TABLET - END */
+
+
 /* ACROSS PAGE STYLING - END */
 /* HOME PAGE STYLING - START */
 
@@ -104,6 +123,29 @@ h2  {
     padding-bottom: 4vh;
 }
 
+/* HOME PAGE STYLING FOR TABLET - START */
+@media screen and (min-width: 1090px) {    
+
+    #tablet-style {
+        font-size: 8vh;
+    }
+
+    .introbox img {
+        display: block;
+        margin: auto;
+        width: 60%;
+        padding-top: 5%;
+        border-radius: 20px;
+    }
+
+    .introbox p {
+        font-size: 4vh;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+}
+/* HOME PAGE STYLING FOR TABLET - END */
+
 /* HOME PAGE STYLING - END */
 /* ABOUT ME PAGE STLYING - START */
 
@@ -126,7 +168,6 @@ p, .worklist {
 /* ABOUT ME PAGE STLYING - END */
 /* BLOG PAGE STYLING - START */
 
-
 .post-grid {
     display: flex;
     flex-direction: column; 
@@ -135,36 +176,22 @@ p, .worklist {
     /* border: white 5px solid; */
 }
 
-.post1 {
+.grid-post {
     text-align: center;
     font-size: 2vh;
     /* border: black 5px solid; */
 }
 
-.post2 {
-    text-align: center;
-    align-self: center;
-    /* border: black 5px solid; */
-}
-
-.post3 {
-    text-align: center;
-    align-self: center;
-    /* border: black 5px solid; */
-}
-
-.post4 {
-    text-align: center;
-    align-self: center;
-    /* border: black 5px solid; */
-}
-
-.post1 h2  {
+.grid-post h2  {
     font-size: 2.5vh;
     font-family: 'Varela Round', sans-serif;
 }
 
-.post1 img {
+.grid-post time {
+    font-family: 'Goldman';
+}
+
+.grid-post img {
     width: 70%;
     height: auto;
 }
@@ -174,8 +201,26 @@ p, .worklist {
     height: auto;
 }
 
-/* BLOG PAGE STYLING - END */
+/* BLOG PAGE STYLING FOR TABLET - START */
+@media screen and (min-width: 1090px) {    
+    .post-grid {
+        /* border: solid black 10px; */
+        display: grid;
+        grid: 100%;
+        grid-template-rows: 70% 25%;
+        grid-template-columns: 45% 45%;
+        grid-row-gap: 5%;
+        grid-column-gap: 10%;
+    }
 
+    .grid-post {
+        /* border: solid white 10px; */
+        align-self: center;
+    }
+}
+/* BLOG PAGE STYLING FOR TABLET - END */
+
+/* BLOG PAGE STYLING - END */
 /* CONTACT ME PAGE STYLING - START */
 
 .contact-me-heading {
@@ -259,5 +304,36 @@ textarea {
     padding: 10%;
     border-radius: 20px;
 }
+
+/* CONTACT ME PAGE STYLING FOR TABLET - START */
+@media screen and (min-width: 1090px) {  
+    /* .contact-me-paragraph p {
+        justify-content: center;
+    } */
+    
+    .social-media-box {
+        display: inline-block;
+        width: 70%;
+        border-radius: 20px;
+        margin: 0 auto;
+        padding: 5%;
+        justify-content: ce;
+    }
+
+    .social-media-box img {
+        width: 20%;
+        height: auto;
+        border-radius: 20px;
+    }
+     
+    .social-media-box a:hover {
+        background-color: rgb(180, 232, 248);
+        width: 26%;
+        height: auto;
+        border-radius: 20px;
+    }
+}
+
+/* CONTACT ME PAGE STYLING FOR TABLET - END */
 
 /* CONTACT ME PAGE STYLING - END */
