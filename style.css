@@ -29,6 +29,7 @@ body {
 .navbar {
     border-radius: 15px;
     margin-top: 10px;
+    margin-bottom: 25px;
     background-color: rgb(24, 131, 99);
     width: 100%;
     overflow: auto;
@@ -149,21 +150,49 @@ h2  {
 /* HOME PAGE STYLING - END */
 /* ABOUT ME PAGE STLYING - START */
 
-.aboutmepage {
-    text-align: center;
-    font-size: 4vh;
-    margin-top: 5vh;
+.about-me-body {
+    padding-left: 18px;
+    padding-right: 18px;
 }
+
+.aboutmepage {
+    font-size: 4vh;
+}
+
+.aboutmeparagraph {
+    background-color: rgb(161, 211, 245);
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.aboutmeparagraph2 {
+    background-color: rgb(179, 226, 255);
+    margin-top: 20px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.aboutmeparagraph3 {
+    background-color: rgb(161, 211, 245);
+    margin-top: 20px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
 
 .worklist {
     padding-top: 8px;
 }
 
 p, .worklist {
-    text-align: center;
     font-family: 'Varela Round', sans-serif;
     font-size: 2.5vh;
 }
+
+.worklistparagraph {
+    text-align: center;
+}
+
 
 /* ABOUT ME PAGE STLYING - END */
 /* BLOG PAGE STYLING - START */
@@ -271,20 +300,20 @@ textarea {
 
 .social-media-box {
     display: flex;
-    flex-direction: column;
-    width: 80%;
-    height: auto;
     background-color: white;
-    border-radius: 20px;
-    margin: 0 auto;
-    padding: 10%;
-    text-align: center;    
+    height: 10vh;
+    align-items: center;
+    border-radius: 10px;
 }
 
-.social-media {
-    width: 80%;
-    padding: 10%;
-    border-radius: 20px;
+.social-media-image {
+    flex: 50%;
+    padding 10px;
+    text-align: center;
+}
+
+.social-media-box img {
+    width: 70%;
 }
 
 /* CONTACT ME PAGE STYLING FOR TABLET - START */
@@ -294,12 +323,22 @@ textarea {
         justify-content: center;
     }
     
-    .social-media-box  {
-        /* border: solid black 10px; */
-        display: grid;
-        grid: 90%;
-        grid-template-columns: 30% 30% 30%;
+    .social-media-box {
+        display: flex;
+        background-color: white;
+        height: 10vh;
+        align-items: center;
+        border-radius: 10px;
+    }
+    
+    .social-media-image {
+        flex: 50%;
+        padding 10px;
         text-align: center;
+    }
+    
+    .social-media-box img {
+        width: 50%;
     }
 }
 
