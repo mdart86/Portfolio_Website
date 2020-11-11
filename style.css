@@ -70,6 +70,14 @@ h2  {
     font-family: 'Varela Round', sans-serif;
 }
 
+p {
+    font-family: 'Varela Round', sans-serif;;
+}
+
+figcaption {
+    font-family: 'Varela Round', sans-serif;
+}
+
 .footer {
     text-align: center;    
     font-family: 'Varela Round', sans-serif;
@@ -81,9 +89,9 @@ h2  {
 }
 
 /* ACROSS PAGE STYLING FOR TABLET - START */
-@media screen and (min-width: 1090px) {
+@media screen and (min-width: 768px) {
     .title {
-        font-size: 7vh;
+        font-size: 5vh;
     }
 
     .navbar li {
@@ -125,7 +133,7 @@ h2  {
 }
 
 /* HOME PAGE STYLING FOR TABLET - START */
-@media screen and (min-width: 1090px) {    
+@media screen and (min-width: 768px) {    
 
     #tablet-style {
         font-size: 8vh;
@@ -208,6 +216,10 @@ p, .worklist {
 .grid-post {
     text-align: center;
     font-size: 2vh;
+    border: white solid 2px;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 5px;
     /* border: black 5px solid; */
 }
 
@@ -230,21 +242,22 @@ p, .worklist {
     height: auto;
 }
 
+
+
 /* BLOG PAGE STYLING FOR TABLET - START */
-@media screen and (min-width: 1090px) {    
+@media screen and (min-width: 768px) {    
     .post-grid {
         /* border: solid black 10px; */
         display: grid;
         grid: 100%;
-        grid-template-rows: 70% 25%;
+        grid-template-rows: 75% 30%;
         grid-template-columns: 45% 45%;
-        grid-row-gap: 5%;
         grid-column-gap: 10%;
     }
 
     .grid-post {
         /* border: solid white 10px; */
-        align-self: center;
+        align-self: top;
     }
 }
 /* BLOG PAGE STYLING FOR TABLET - END */
@@ -317,7 +330,7 @@ textarea {
 }
 
 /* CONTACT ME PAGE STYLING FOR TABLET - START */
-@media screen and (min-width: 1090px) {  
+@media screen and (min-width: 768px) {  
     
     .contact-me-paragraph {
         justify-content: center;
@@ -343,5 +356,17 @@ textarea {
 }
 
 /* CONTACT ME PAGE STYLING FOR TABLET - END */
+
+/* CONTACT ME PAGE STYLING FOR DESKTOP - START */
+/* 
+@media screen and (min-width: 1024px) {  
+    .social-media-box {
+        display: flex;
+        flex-direction: column; 
+    }
+} */
+
+/* CONTACT ME PAGE STYLING FOR DESKTOP - END */
+
 
 /* CONTACT ME PAGE STYLING - END */
