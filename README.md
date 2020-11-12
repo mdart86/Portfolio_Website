@@ -54,5 +54,6 @@ To develop my site, I used the following:
 - GitHub (for remote repository)
 - Netlify (for publishing)
 - Microsoft Powerpoint (for Slidedeck presentation)
+- Lucidchart (for Sitemap)
 
 ## SITEMAP

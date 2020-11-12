@@ -133,6 +133,11 @@ figcaption {
     padding-bottom: 2vh;
 }
 
+.homecaption {
+    font-size: 2vh;
+    text-align: center;
+}
+
 /* HOME PAGE STYLING FOR TABLET - START */
 @media screen and (min-width: 768px) {    
 
@@ -282,6 +287,10 @@ p, .worklist {
     /* border: black 5px solid; */
 }
 
+.grid-post p {
+    text-align: left;
+}
+
 .grid-post h2  {
     font-size: 2.5vh;
     font-family: 'Varela Round', sans-serif;
@@ -357,28 +366,21 @@ p, .worklist {
     margin-bottom: 2vh;
 }
 
-.form {
+form {
     display: flex;
     flex-direction: column;
-    text-align: center;    
-}
-
-.fname, .lname, .email {
+    text-align: center;
     font-family: 'Varela Round', sans-serif;
     font-size: 2.5vh;
 }
 
-.textarea {
-    font-size: 2.5vh;
+.fname, .lname, .email {
+    margin-bottom: 10px;
 }
 
 textarea {
     font-family: 'Varela Round', sans-serif;
-}
-
-.submit {
-    justify-content: center;
-    font-family: 'Varela Round', sans-serif;
+    resize: none;
 }
 
 .connect-with-me {
@@ -430,8 +432,6 @@ textarea {
         width: 50%;
     }
 }
-
 /* CONTACT ME PAGE STYLING FOR TABLET - END */
-
 
 /* CONTACT ME PAGE STYLING - END */
