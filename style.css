@@ -230,6 +230,10 @@ p, .worklist {
     text-align: center;
 }
 
+.myresume h2 {
+    font-size: 5vh;
+}
+
 /* ABOUT ME PAGE STYLING FOR TABLET - START */
 @media screen and (min-width: 768px) {
     .aboutmeparagraph1 {
@@ -433,5 +437,14 @@ textarea {
     }
 }
 /* CONTACT ME PAGE STYLING FOR TABLET - END */
+
+/* CONTACT ME PAGE STYLING FOR DESKTOP - START */
+@media screen and (min-width: 1024px) {  
+    textarea {
+        width: 500px;
+    }
+}
+/* CONTACT ME PAGE STYLING FOR DESKTOP - END */
+
 
 /* CONTACT ME PAGE STYLING - END */
