@@ -29,7 +29,7 @@ body {
 .navbar {
     border-radius: 15px;
     margin-top: 10px;
-    margin-bottom: 25px;
+    margin-bottom: 5px;
     background-color: rgb(24, 131, 99);
     width: 100%;
     overflow: auto;
@@ -81,7 +81,7 @@ figcaption {
 .footer {
     text-align: center;    
     font-family: 'Varela Round', sans-serif;
-    margin-top: 6vh;
+    margin-top: 4vh;
     background-color: rgb(111, 207, 252);
     padding-top: .5vh;
     padding-bottom: .5vh;
@@ -131,26 +131,30 @@ figcaption {
     padding-left: 1.5vh;
     padding-right: 1.5vh;
     padding-bottom: 2vh;
-
 }
 
 /* HOME PAGE STYLING FOR TABLET - START */
 @media screen and (min-width: 768px) {    
 
     #tablet-style {
-        font-size: 8vh;
+        font-size: 4vh;
+    }
+
+    .introbox {
+        margin-left: 10%;
+        margin-right: 10%;
     }
 
     .introbox img {
         display: block;
         margin: auto;
-        width: 60%;
+        width: 50%;
         padding-top: 5%;
         border-radius: 20px;
     }
 
     .introbox p {
-        font-size: 4vh;
+        font-size: 2.5vh;
         padding-left: 5%;
         padding-right: 5%;
     }
@@ -271,9 +275,9 @@ p, .worklist {
     text-align: center;
     font-size: 2vh;
     border: white solid 2px;
+    margin: 2%;
     background-color: rgb(194, 238, 255);
     border-radius: 10px;
-    margin: 5px;
     padding: 5px;
     /* border: black 5px solid; */
 }
@@ -303,10 +307,10 @@ p, .worklist {
         /* border: solid black 10px; */
         display: grid;
         grid: 100%;
-        grid-template-rows: 85% 20%;
+        grid-template-rows: 82% 18%;
         grid-template-columns: 45% 45%;
         grid-column-gap: 10%;
-        margin-top: 10px;
+        grid-row-gap: 5%
     }
 
     .grid-post {
@@ -318,6 +322,16 @@ p, .worklist {
 
 /* BLOG PAGE STYLING FOR DESKTOP - START */
 @media screen and (min-width: 1024px) {
+    .post-grid {
+        /* border: solid black 10px; */
+        display: grid;
+        grid: 100%;
+        grid-template-rows: 72% 28%;
+        grid-template-columns: 45% 45%;
+        grid-column-gap: 10%;
+        grid-row-gap: 5%
+    }
+
     .grid-post {
         padding: 30px;
     }
@@ -418,17 +432,6 @@ textarea {
 }
 
 /* CONTACT ME PAGE STYLING FOR TABLET - END */
-
-/* CONTACT ME PAGE STYLING FOR DESKTOP - START */
-/* 
-@media screen and (min-width: 1024px) {  
-    .social-media-box {
-        display: flex;
-        flex-direction: column; 
-    }
-} */
-
-/* CONTACT ME PAGE STYLING FOR DESKTOP - END */
 
 
 /* CONTACT ME PAGE STYLING - END */
