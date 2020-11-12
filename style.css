@@ -17,9 +17,9 @@ body {
     position: absolute;
     display: inline-block;
     top: 8px;
-    left: 20px;
+    left: 10px;
     color: rgb(172, 204, 240);
-    font-size: 2.5vh;
+    font-size: 2.25vh;
     font-family: 'Fredoka One', cursive;
     background-color: rgb(77, 77, 77);
     border-radius: 10px;
@@ -106,7 +106,6 @@ figcaption {
 }
 /* ACROSS PAGE STYLING FOR TABLET - END */
 
-
 /* ACROSS PAGE STYLING - END */
 /* HOME PAGE STYLING - START */
 
@@ -127,9 +126,12 @@ figcaption {
     border-radius: 30px;
     text-align: center;    
     font-family: 'Varela Round', sans-serif;
-    font-size: 3vh;
-    padding-top: 2vh;
-    padding-bottom: 4vh;
+    font-size: 2.5vh;
+    padding-top: 1.5vh;
+    padding-left: 1.5vh;
+    padding-right: 1.5vh;
+    padding-bottom: 2vh;
+
 }
 
 /* HOME PAGE STYLING FOR TABLET - START */
@@ -186,7 +188,7 @@ figcaption {
     font-size: 4vh;
 }
 
-.aboutmeparagraph {
+.aboutmeparagraph1 {
     background-color: rgb(161, 211, 245);
     padding: 5px;
     border-radius: 10px;
@@ -206,7 +208,6 @@ figcaption {
     border-radius: 10px;
 }
 
-
 .worklist {
     padding-top: 8px;
 }
@@ -220,6 +221,40 @@ p, .worklist {
     text-align: center;
 }
 
+/* ABOUT ME PAGE STYLING FOR TABLET - START */
+@media screen and (min-width: 768px) {
+    .aboutmeparagraph1 {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .aboutmeparagraph2 {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .aboutmeparagraph3 {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+/* ABOUT ME PAGE STYLING FOR TABLET - END */
+
+/* ABOUT ME PAGE STYLING FOR DESKTOP - START */
+@media screen and (min-width: 1024px) {
+    .aboutmeparagraph1 {
+        padding: 30px;
+    }
+
+    .aboutmeparagraph2 {
+        padding: 30px;
+    }
+
+    .aboutmeparagraph3 {
+        padding: 30px;
+    }
+}
+/* ABOUT ME PAGE STYLING FOR END - START */
 
 /* ABOUT ME PAGE STLYING - END */
 /* BLOG PAGE STYLING - START */
@@ -262,17 +297,16 @@ p, .worklist {
     height: auto;
 }
 
-
-
 /* BLOG PAGE STYLING FOR TABLET - START */
 @media screen and (min-width: 768px) {    
     .post-grid {
         /* border: solid black 10px; */
         display: grid;
         grid: 100%;
-        grid-template-rows: 75% 30%;
+        grid-template-rows: 85% 20%;
         grid-template-columns: 45% 45%;
         grid-column-gap: 10%;
+        margin-top: 10px;
     }
 
     .grid-post {
@@ -281,6 +315,14 @@ p, .worklist {
     }
 }
 /* BLOG PAGE STYLING FOR TABLET - END */
+
+/* BLOG PAGE STYLING FOR DESKTOP - START */
+@media screen and (min-width: 1024px) {
+    .grid-post {
+        padding: 30px;
+    }
+}
+/* BLOG PAGE STYLING FOR END - START */
 
 /* BLOG PAGE STYLING - END */
 /* CONTACT ME PAGE STYLING - START */
