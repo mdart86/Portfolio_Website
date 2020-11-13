@@ -1,3 +1,20 @@
+README document
+General project documentation is to be compiled as a single markdown file named README.md. This file should contain,
+
+A link (URL) to your published portfolio website
+A link to your GitHub repo
+Description of your portfolio website, including,
+Purpose
+Functionality / features
+Sitemap
+Screenshots
+Target audience
+Tech stack (e.g. html, css, deployment platform, etc)
+
+All files linked by the README.md file must be included in a folder named docs. All resources included in this folder must be in either png, jpeg, pdf, or markdown (md) format	
+
+*** this relates to images you are including on the read me doc.
+
 # MICHAEL DART - T1A2 - PORTFOLIO ASSIGNMENT
 <br>
 <br>
