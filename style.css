@@ -231,7 +231,7 @@ p, .worklist {
 }
 
 .myresume h2 {
-    font-size: 5vh;
+    font-size: 3vh;
 }
 
 /* ABOUT ME PAGE STYLING FOR TABLET - START */
@@ -392,6 +392,24 @@ textarea {
     font-family: 'Architects Daughter', cursive;
     font-size: 3vh;
 }
+
+/* CONTACT ME PAGE STYLING FOR TABLET - SOCIAL MEDIA LOGOS - START */
+/* FIX LOGO AREA TO MAKE IT WORK FOR TABLET VIEW */
+@media screen and (min-width: 768px), (max-width: 900px) {
+    .social-media-box {
+        display: inline-block;
+        width: 80%;
+    }
+
+    .social-media-image {
+        padding: 10px;
+    }
+
+    .social-media-box img {
+        width: 100px;
+    }
+}
+/* CONTACT ME PAGE STYLING FOR TABLET - SOCIAL MEDIA LOGOS - END */
 
 /* CONTACT ME PAGE STYLING FOR DESKTOP - SOCIAL MEDIA LOGOS - START */
 .social-media-box {
