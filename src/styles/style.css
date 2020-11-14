@@ -492,7 +492,6 @@ textarea {
 #submit:hover {
     background-color:  rgb(111, 207, 252);
 }
-
 /* FORM STYLING - END */
 
 /* CONTACT ME PAGE - SOCIAL MEDIA MESSAGE STYLING - START */
@@ -536,7 +535,6 @@ textarea {
     .social-media-box img {
         width: 64px;
     }
-
 /* CONTACT ME PAGE - SOCIAL MEDIA CARD STYLING - FOR TABLET - START */  
     @media screen and (min-width: 768px) and (max-width: 1020px) {
         .social-media-box {
