@@ -141,9 +141,13 @@ figcaption {
     text-align: center;
 }
 
+#pictureofme:hover {
+    transform: scale(1.5,1.5);
+    border-radius: 30px;
+}
+
 /* HOME PAGE STYLING FOR TABLET - START */
 @media screen and (min-width: 768px) {    
-
     #tablet-style {
         font-size: 4vh;
     }
@@ -239,6 +243,7 @@ p, .worklist {
 /* ABOUT ME PAGE - EXTRA INFO SECTION STYLING - START */
 .extrainfo {
     margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .qualifications {
@@ -251,6 +256,11 @@ p, .worklist {
     height: 125px;
     border-radius: 3px;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
+}
+
+#myresume:hover {
+    transform: scale(2,2);
+    border-radius: 10px;
 }
 
 #college_hat {
@@ -457,6 +467,11 @@ textarea {
         margin: 0 auto;
         justify-self: center;
         /* border: solid 10px black */
+    }
+
+    .social-media-image:hover {
+        background-color: rgb(155, 232, 255);
+        border-radius: 20px;
     }
 
     .social-media-box img {
