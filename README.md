@@ -19,17 +19,8 @@ All files linked by the README.md file must be included in a folder named docs. 
 <br>
 <br>
 
-## REMOTE CONNECTIONS
-
-### Netlify 
-You can access my website via [My Netlify]{https://app.netlify.com/teams/mdart86/overview} &&& UPDATE THE LINK&&&
-<br>
-<br>
-
-### Git Hub
-To see my remote respository - please go to [My GitHub Repository]{https://github.com/mdart86/Michael-Dart_T1A2}
-<br>
-<br>
+### Target Audience
+I am targeting industry professionals who are looking for a junior web developer with rich life experience who is eager and develop, progressing past an entry-level of employment
 
 ## ABOUT THE WEBSITE
 
@@ -63,11 +54,13 @@ The footer is shown across all pages and shows the copyright information.
 <br>
 <br>
 
-### Screenshots
+## SITEMAP
 
 
-### Target Audience
-I am targeting industry professionals who are looking for a junior web developer with rich life experience who wants to progress past an entry level employment status.
+## SCREENSHOTS
+
+
+
 
 ## TECH STACK
 To develop my site, I used the following:
@@ -79,7 +72,18 @@ To develop my site, I used the following:
 - Microsoft Powerpoint (for Slidedeck presentation)
 - Lucidchart (for Sitemap)
 
-## SITEMAP
+## REMOTE CONNECTIONS
+
+### Netlify 
+You can access my website via [My Netlify]{https://app.netlify.com/teams/mdart86/overview} &&& UPDATE THE LINK&&&
+<br>
+<br>
+
+### Git Hub
+To see my remote respository - please go to [My GitHub Repository]{https://github.com/mdart86/Michael-Dart_T1A2}
+<br>
+<br>
+
 
 
 

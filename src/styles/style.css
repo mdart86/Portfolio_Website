@@ -1,9 +1,6 @@
 /* ACROSS PAGE STYLING - START */
 
-body {
-    background-color: rgb(155, 232, 255);
-}
-
+/* HEADER STYLING - START */
 .header {
     position: relative;
 }
@@ -11,6 +8,11 @@ body {
 .header img {
     border-radius: 5px 5px 70px 70px;
     max-width: 100%;
+    animation: fadeIn ease 3.5s;
+    -webkit-animation: fadeIn ease 3.5s;
+    -moz-animation: fadeIn ease 3.5s;
+    -o-animation: fadeIn ease 3.5s;
+    -ms-animation: fadeIn ease 3.5s;
 }
 
 .title {
@@ -24,10 +26,42 @@ body {
     background-color: rgb(77, 77, 77);
     border-radius: 10px;
     padding: 4px 10px 4px 10px;
-    /* transition: ease-in 1s; */
+    animation: fadeIn ease 3s;
+    -webkit-animation: fadeIn ease 3.5s;
+    -moz-animation: fadeIn ease 3.5s;
+    -o-animation: fadeIn ease 3.5s;
+    -ms-animation: fadeIn ease 3.5s;
+ }
+ /* HEADER STYLING - END */
+
+ /* ANIMATION ACROSS FOR DIFFERENT BROWSERS - START */
+ @keyframes fadeIn {
+     1% {opacity:.1;}
+     100% {opacity: 1;}
  }
 
+@-moz-keyframes fadeIn {
+    1% {opacity:.1;}
+    100% {opacity:1;}
+}
+    
+@-webkit-keyframes fadeIn {
+    1% {opacity:.1;}
+    100% {opacity:1;}
+}
+    
+@-o-keyframes fadeIn {
+    1% {opacity:.1;}
+    100% {opacity:1;}
+}
+    
+@-ms-keyframes fadeIn {
+    1% {opacity:.1;}
+    100% {opacity:1;}
+}
+/* ANIMATION ACROSS FOR DIFFERENT BROWSERS - END */
 
+/* NAV BAR STYLING - START */
 .navbar {
     border-radius: 15px;
     margin-top: 10px;
@@ -64,6 +98,11 @@ li a:hover {
 .active {
     background-color: rgb(9, 243, 165);
     font-weight: 700;
+}
+/* NAV BAR STYLING - END */
+
+body {
+    background-color: rgb(155, 232, 255);
 }
 
 h2, h4 {
@@ -413,7 +452,7 @@ p, .worklist {
 }
 
 /* FORM STYLING - START */
-form {
+.form {
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -426,8 +465,32 @@ form {
 }
 
 textarea {
+    margin-bottom: 5px;
+}
+
+#textarea {
     font-family: 'Varela Round', sans-serif;
     resize: none;
+}
+
+#fname:hover {
+    border: solid 2px rgb(24, 131, 99);
+}
+
+#lname:hover {
+    border: solid 2px rgb(24, 131, 99);
+}
+
+#email:hover {
+    border: solid 2px rgb(24, 131, 99);
+}
+
+#textarea:hover {
+    border: solid 2px rgb(24, 131, 99);
+}
+
+#submit:hover {
+    background-color:  rgb(111, 207, 252);
 }
 
 /* FORM STYLING - END */
