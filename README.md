@@ -19,10 +19,10 @@ All files linked by the README.md file must be included in a folder named docs. 
 <br>
 <br>
 
-## ONLINE LINES
+## REMOTE CONNECTIONS
 
 ### Netlify 
-You can access my website via [My Netlify]{https://app.netlify.com/teams/mdart86/overview}
+You can access my website via [My Netlify]{https://app.netlify.com/teams/mdart86/overview} &&& UPDATE THE LINK&&&
 <br>
 <br>
 
@@ -34,15 +34,16 @@ To see my remote respository - please go to [My GitHub Repository]{https://githu
 ## ABOUT THE WEBSITE
 
 ### Purpose
-A comprehensive but short insight into me and who I am as a person. Showing my work history and what made me to get into Coding. My blogs page introduces you to what I have been involved in so far in my journey, which has just started.
+A comprehensive insight into me and who I am as a person, showcasing my work and study history, what got me into coding and my coding journey so far with some projects I have embarked on.
 <br>
 <br>
 
 ### Functionality and Features
 As a portfolio website, I have kept the functionality as simple as possible with only 4 pages.<br>
-Across all pages, the following areas will appear:<br>
+A uniformed layout is noticeable across the website, the simplified layout includes:
 - Header
 - Navigation Bar
+- Body
 - Footer
 <br>
 <br>
@@ -62,15 +63,23 @@ The footer is shown across all pages and shows the copyright information.
 <br>
 <br>
 
+### Screenshots
 
+
+### Target Audience
+I am targeting industry professionals who are looking for a junior web developer with rich life experience who wants to progress past an entry level employment status.
 
 ## TECH STACK
 To develop my site, I used the following:
 - Balsamiq (for Wireframes)
 - HTML and CSS (in VS Code)
+- Images - Created or captured by me and externally sourced (credits are referenced in the footer of the pages where these images exist)
 - GitHub (for remote repository)
-- Netlify (for publishing)
+- Netlify (for deploying)
 - Microsoft Powerpoint (for Slidedeck presentation)
 - Lucidchart (for Sitemap)
 
 ## SITEMAP
+
+
+
