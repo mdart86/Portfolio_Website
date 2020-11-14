@@ -1,14 +1,4 @@
-
-A link (URL) to your published portfolio website
-Description of your portfolio website, including,
-Purpose
-Functionality / features
-
-
 # **MICHAEL DART - T1A2 - PORTFOLIO ASSIGNMENT**
-<br>
-<br>
-
 ## **Target Audience**
 Seeking the attention of industry professionals who are looking for a junior web developer with rich life experience who is eager to learn and develop and in due time progress past an entry-level of employment
 <br>
@@ -31,7 +21,11 @@ The simplified layout includes:
 <br>
 <br>
 
-Some features of the website include: 
+*Some features of the website include:*
+#### **SUBRESOURCE INTEGRITY**
+To ensure the security of my website and the audience, Subresource Integrity or SRI is coded across all pages of the website. Giving the audience comfort that any resources they access aren't manipulated by a malicious person.
+<br>
+<br>
 
 #### **THE HEADER**
 The header features a title sitting infront of an image which is used to increase the websites identity. A fade-in animation is a set to these elements for "wow" effect when the audience enters/refreshes the page, additional coding allows the styling is accessible across multiple browsers. The image is finished off with curved edges for a calm feel.
@@ -248,6 +242,8 @@ textarea {
 
 #### **RESPONSIVENESS**
 Whilst there are many other features, the final feature to be highlighted is the pages responsivenes. Grid properties and CSS Flexbox properties are used in multiple areas of the websites. For the below example, I will draw your attention to my Social Media Box. The flexbox properties allow the images to flex into a column direction on smaller screens. 
+<br>
+<br>
 
 **Example HTML Code:** 
 ``` html
@@ -314,9 +310,11 @@ Whilst there are many other features, the final feature to be highlighted is the
 ## **SITEMAP**
 In the below site map, you will see the simple structure of the website and it's four pages with a basic overview of what is included on the page. As indicated, you can access any page from your active (current) page.
 ![Sitemap](docs/Sitemap.jpeg)
+<br>
+<br>
 
 ## **SCREENSHOTS**
-These screenshots will show the website's adaptability across multiple devices. You may not see the whole screen on some screenshots however as it is a uniformed, they will be easy to understand. Leading through from mobile, to tablet and desktop views, screenshots are will be more relative to their viewport to demonstrate the responsiveness of the website, most content is shown in the first screenshots.
+These screenshots will show the website's responsiveness across multiple devices. You may not see the whole screen on some screenshots however as it is a uniformed, they will be easy to understand. Leading through from mobile, to tablet and desktop views, screenshots are will be more relative to their viewport to demonstrate the responsiveness of the website, most content is shown in the first screenshots.
 <br>
 <br>
 
@@ -358,11 +356,12 @@ Below is a list of tools I used to develop my site:
 - [Microsoft Powerpoint](https://www.microsoft.com/en-au/microsoft-365/powerpoint) - for creating the Slidedeck presentation
 - [Adobe Acrobat PDF](https://www.adobe.com/au/) - for generating the official public Slidedeck presentation
 - [Lucidchart](https://www.lucidchart.com/pages/) - for the Sitemap image
+<br>
+<br>
 
 ## **REMOTE CONNECTIONS**
-
 ### Netlify 
-You can access my website via [My Netlify](https://app.netlify.com/teams/mdart86/overview) &&& UPDATE THE LINK&&&
+You can access my website via [My Netlify Deployment](https://optimistic-heisenberg-5c7818.netlify.app)
 <br>
 <br>
 
@@ -370,3 +369,5 @@ You can access my website via [My Netlify](https://app.netlify.com/teams/mdart86
 To see my remote respository - please go to [My GitHub Repository](https://github.com/mdart86/Michael-Dart_T1A2)
 <br>
 <br>
+
+## ***I hope you enjoy my website!***
