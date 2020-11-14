@@ -24,7 +24,9 @@ body {
     background-color: rgb(77, 77, 77);
     border-radius: 10px;
     padding: 4px 10px 4px 10px;
+    /* transition: ease-in 1s; */
  }
+
 
 .navbar {
     border-radius: 15px;
@@ -64,7 +66,7 @@ li a:hover {
     font-weight: 700;
 }
 
-h2  {
+h2, h4 {
     text-align: center;
     font-size: 2.5vh;
     font-family: 'Varela Round', sans-serif;
@@ -104,7 +106,7 @@ figcaption {
         text-transform: uppercase;
     }
 }
-/* ACROSS PAGE STYLING FOR TABLET - END */
+    /* ACROSS PAGE STYLING FOR TABLET - END */
 
 /* ACROSS PAGE STYLING - END */
 /* HOME PAGE STYLING - START */
@@ -113,6 +115,7 @@ figcaption {
     justify-content: center;
     border-radius: 30px;
     background-color: whitesmoke;
+    box-shadow: 0 6px 6px 0 rgba(0, 0, 0, 0.2);
 }
 
 .introbox img {
@@ -201,6 +204,7 @@ figcaption {
     background-color: rgb(161, 211, 245);
     padding: 5px;
     border-radius: 10px;
+    box-shadow: 0 6px 6px 0 rgba(0, 0, 0, 0.2);
 }
 
 .aboutmeparagraph2 {
@@ -208,6 +212,7 @@ figcaption {
     margin-top: 20px;
     padding: 5px;
     border-radius: 10px;
+    box-shadow: 0 6px 6px 0 rgba(0, 0, 0, 0.2);
 }
 
 .aboutmeparagraph3 {
@@ -215,6 +220,7 @@ figcaption {
     margin-top: 20px;
     padding: 5px;
     border-radius: 10px;
+    box-shadow: 0 6px 6px 0 rgba(0, 0, 0, 0.2);
 }
 
 .worklist {
@@ -232,6 +238,12 @@ p, .worklist {
 
 .myresume h2 {
     font-size: 3vh;
+}
+
+.myresume img {
+    width: 170px;
+    height: auto;
+    justify-self: center;
 }
 
 /* ABOUT ME PAGE STYLING FOR TABLET - START */
@@ -399,6 +411,7 @@ textarea {
     .social-media-box {
         display: inline-block;
         width: 80%;
+        box-shadow: 0 6px 6px 0 rgba(0, 0, 0, 0.2);
     }
 
     .social-media-image {
