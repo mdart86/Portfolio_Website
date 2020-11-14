@@ -19,7 +19,7 @@ body {
     top: 8px;
     left: 10px;
     color: rgb(172, 204, 240);
-    font-size: 2.25vh;
+    font-size: 2.5vh;
     font-family: 'Fredoka One', cursive;
     background-color: rgb(77, 77, 77);
     border-radius: 10px;
@@ -236,18 +236,31 @@ p, .worklist {
     text-align: center;
 }
 
-.myresume h2 {
-    font-size: 3vh;
+/* ABOUT ME PAGE - EXTRA INFO SECTION STYLING - START */
+.extrainfo {
+    margin-top: 30px;
 }
 
-.myresume img {
-    width: 170px;
-    height: auto;
-    justify-self: center;
+.qualifications {
+    padding-bottom: 10px;
+    text-align: center;
 }
+
+.qualifications img {
+    width: 125px;
+    height: 125px;
+    border-radius: 3px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
+}
+
+#college_hat {
+    background-color: whitesmoke;
+}
+/* ABOUT ME PAGE - EXTRA INFO SECTION STYLING - END */
 
 /* ABOUT ME PAGE STYLING FOR TABLET - START */
 @media screen and (min-width: 768px) {
+    /* PARAGRAPH STYLING - START */
     .aboutmeparagraph1 {
         padding-left: 10px;
         padding-right: 10px;
@@ -262,6 +275,18 @@ p, .worklist {
         padding-left: 10px;
         padding-right: 10px;
     }
+    /* PARAGRAPH STYLING - END */
+
+    /* EXTRA INFO STYLING - START */
+    .extrainfo {
+        display: flex;
+    }
+
+    .qualifications {
+        display: inline-block;
+        margin: 0 auto;
+    }
+    /* EXTRA INFO STYLING - END */
 }
 /* ABOUT ME PAGE STYLING FOR TABLET - END */
 
@@ -300,6 +325,7 @@ p, .worklist {
     background-color: rgb(194, 238, 255);
     border-radius: 10px;
     padding: 5px;
+    box-shadow: 0 6px 6px 0 rgba(0, 0, 0, 0.2);
     /* border: black 5px solid; */
 }
 
@@ -319,11 +345,13 @@ p, .worklist {
 .grid-post img {
     width: 70%;
     height: auto;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
 }
 
 .pending-image {
     width:  70%;
     height: auto;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
 }
 
 /* BLOG PAGE STYLING FOR TABLET - START */
@@ -332,7 +360,7 @@ p, .worklist {
         /* border: solid black 10px; */
         display: grid;
         grid: 100%;
-        grid-template-rows: 82% 18%;
+        grid-template-rows: 81% 19%;
         grid-template-columns: 45% 45%;
         grid-column-gap: 10%;
         grid-row-gap: 5%
@@ -369,7 +397,7 @@ p, .worklist {
 .contact-me-heading {
     text-align: center;    
     font-family: 'Architects Daughter', cursive;
-    font-size: 3.5vh;
+    font-size: 4vh;
     font-weight: 400;
     margin-top: 2vh;
 }
@@ -382,6 +410,7 @@ p, .worklist {
     margin-bottom: 2vh;
 }
 
+/* FORM STYLING - START */
 form {
     display: flex;
     flex-direction: column;
@@ -399,81 +428,68 @@ textarea {
     resize: none;
 }
 
+/* FORM STYLING - END */
+
+/* CONTACT ME PAGE - SOCIAL MEDIA MESSAGE STYLING - START */
 .connect-with-me {
     text-align: center;    
     font-family: 'Architects Daughter', cursive;
-    font-size: 3vh;
+    font-size: 5vh;
 }
+/* CONTACT ME PAGE - SOCIAL MEDIA MESSAGE STYLING - END */
 
-/* CONTACT ME PAGE STYLING FOR TABLET - SOCIAL MEDIA LOGOS - START */
-/* FIX LOGO AREA TO MAKE IT WORK FOR TABLET VIEW */
-@media screen and (min-width: 768px), (max-width: 900px) {
+/* CONTACT ME PAGE - SOCIAL MEDIA CARD STYLING - START */
     .social-media-box {
-        display: inline-block;
-        width: 80%;
+        display: flex;    
+        flex-wrap: wrap;
+        width: 70%;
+        height: auto;
+        background-color: white;
+        border-radius: 20px;
+        margin: 0 auto;
         box-shadow: 0 6px 6px 0 rgba(0, 0, 0, 0.2);
     }
 
     .social-media-image {
+        flex-direction: column;
+        height: auto;
         padding: 10px;
+        margin: 0 auto;
+        justify-self: center;
+        /* border: solid 10px black */
     }
 
     .social-media-box img {
-        width: 100px;
+        width: 128px;
     }
+
+    /* CONTACT ME PAGE - SOCIAL MEDIA CARD STYLING - FOR TABLET - START */
+    @media screen and (min-width: 768px) and (max-width: 1020px) {
+        .social-media-box {
+            display: flex;    
+            flex-wrap: wrap;
+            width: 85%;
+        }
+
+        .social-media-image {
+            padding: 15px
+        }
+    }   
+    /* CONTACT ME PAGE - SOCIAL MEDIA CARD STYLING - FOR TABLET - END */ 
+/* CONTACT ME PAGE - SOCIAL MEDIA CARD STYLING - END */
+
+/* FOOTER STYLING for ABOUT ME and CONTACT ME PAGE - START */
+.creditsinfo p {
+    font-size: 2vh;
 }
-/* CONTACT ME PAGE STYLING FOR TABLET - SOCIAL MEDIA LOGOS - END */
 
-/* CONTACT ME PAGE STYLING FOR DESKTOP - SOCIAL MEDIA LOGOS - START */
-.social-media-box {
-    display: flex;    
-    flex-wrap: wrap;
-    width: 70%;
-    height: auto;
-    background-color: white;
-    border-radius: 20px;
-    margin: 0 auto;
+.image_credits {
+    display: block;
 }
 
-.social-media-image {
-    flex-direction: column;
-    height: auto;
-    padding: 30px;
-    margin: 0 auto;
-    justify-self: center;
+.creditsinfo p {
+    display: inline-block;
+    padding: 5px;
 }
-
-.social-media-box img {
-    width: 200px;
-}
-/* CONTACT ME PAGE STYLING FOR DESKTOP - SOCIAL MEDIA LOGOS - END */
-
-
-/* CONTACT ME PAGE STYLING FOR MOBILE - START */
-@media screen and (min-width: 320px) {      
-    .social-media-box {
-        width: 90%;
-        background-color: white;
-    }
-}
-/* CONTACT ME PAGE STYLING FOR MOBILE - END */
-
-
-/* CONTACT ME PAGE STYLING FOR TABLET - START */
-@media screen and (min-width: 768px) {      
-    .contact-me-paragraph {
-        justify-content: center;
-    }
-}
-/* CONTACT ME PAGE STYLING FOR TABLET - END */
-
-/* CONTACT ME PAGE STYLING FOR DESKTOP - START */
-@media screen and (min-width: 1024px) {  
-    textarea {
-        width: 500px;
-    }
-}
-/* CONTACT ME PAGE STYLING FOR DESKTOP - END */
-
-
+/* FOOTER STYLING for ABOUT ME and CONTACT ME PAGE - END */
 /* CONTACT ME PAGE STYLING - END */
