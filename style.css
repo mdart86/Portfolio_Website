@@ -259,7 +259,7 @@ p, .worklist {
 }
 
 #myresume:hover {
-    transform: scale(2,2);
+    transform: scale(1.5,1.5);
     border-radius: 10px;
 }
 
@@ -475,10 +475,10 @@ textarea {
     }
 
     .social-media-box img {
-        width: 128px;
+        width: 64px;
     }
 
-    /* CONTACT ME PAGE - SOCIAL MEDIA CARD STYLING - FOR TABLET - START */
+/* CONTACT ME PAGE - SOCIAL MEDIA CARD STYLING - FOR TABLET - START */  
     @media screen and (min-width: 768px) and (max-width: 1020px) {
         .social-media-box {
             display: flex;    
@@ -489,8 +489,19 @@ textarea {
         .social-media-image {
             padding: 15px
         }
+
+        .social-media-box img {
+            width: 128px;
+        }
     }   
-    /* CONTACT ME PAGE - SOCIAL MEDIA CARD STYLING - FOR TABLET - END */ 
+/* CONTACT ME PAGE - SOCIAL MEDIA CARD STYLING - FOR TABLET - END */ 
+/* CONTACT ME PAGE - SOCIAL MEDIA CARD STYLING - FOR DESKTOP - START */
+    @media screen and (min-width: 1028px) {
+        .social-media-box img {
+            width: 128px;
+        }
+    }
+/* CONTACT ME PAGE - SOCIAL MEDIA CARD STYLING - FOR END - START */
 /* CONTACT ME PAGE - SOCIAL MEDIA CARD STYLING - END */
 
 /* FOOTER STYLING for ABOUT ME and CONTACT ME PAGE - START */
