@@ -1,34 +1,33 @@
 # **MICHAEL DART - T1A2 - PORTFOLIO ASSIGNMENT**
 ## **Target Audience**
-Seeking the attention of industry professionals who are looking for a junior web developer with rich life experience who is eager to learn and develop and in due time progress past an entry-level of employment
+Seeking the attention of industry leaders who are looking for a junior web developer with rich life experience who is eager to learn and develop and in due time progress past an entry-level of employment. I am also wanting to connect with other industry professionals to collaborate on ideas and work together on projects.
 <br>
 <br>
 
 ## **About the Website**
-
 ### **Purpose**
-A comprehensive insight into me and who I am as a person, showcasing my work and study history, what got me into coding and my coding journey so far with some projects I have embarked on.
+The website is a comprehensive insight into myself and who I am as a person. Showcasing my work and study history, what got me into coding and my coding journey so far with the projects I have embarked on so far.
 <br>
 <br>
 
 ### **Functionality and Features**
-As a portfolio website, I have kept the functionality as simple as possible with only 4 uniformed pages<br>
-The simplified layout includes:
+As a portfolio website, the functionality is simple with 4 pages that share a uniformed layout<br>
+The uniformed and simple layout includes:
 - Header
 - Navigation Bar
-- Body - for the content
+- Body (for the content)
 - Footer
 <br>
 <br>
 
-*Some features of the website include:*
+*Features of the website include:*
 #### **SUBRESOURCE INTEGRITY**
-To ensure the security of my website and the audience, Subresource Integrity or SRI is coded across all pages of the website. Giving the audience comfort that any resources they access aren't manipulated by a malicious person.
+To ensure the security of the website and the audience, Subresource Integrity (or SRI) is coded into all pages. Giving the audience confidence that any resources they access aren't manipulated by a malicious person.
 <br>
 <br>
 
 #### **THE HEADER**
-The header features a title sitting infront of an image which is used to increase the websites identity. A fade-in animation is a set to these elements for "wow" effect when the audience enters/refreshes the page, additional coding allows the styling is accessible across multiple browsers. The image is finished off with curved edges for a calm feel.
+The header features a title sitting infront of an image to form the identity of the website. A fade-in animation is a set to these elements for a "WOW" effect when the audience enters/refreshes the page, additional coding allows the styling to be viewed across multiple browsers. The title and image are finished off with curved edges for a calm feel.
 <br>
 <br>
 
@@ -81,7 +80,7 @@ The header features a title sitting infront of an image which is used to increas
 <br>
 
 #### **THE NAVIGATION BAR**
-A single line bar with 4 titles that shrinks in smaller screen sizes. This navigation bar is easy to see across all devices allowing the audience to connect seemlessly to any page on the website. For easy reference, the active (or current) page is highlighted in a different colour, bold and uppercase text.
+A single line bar with 4 titles that shrinks in smaller screen sizes. This navigation bar is easy to see across all devices allowing the audience to connect seemlessly to any page of the website. For easy reference, the active (or current) page is highlighted in a different colour with bold and uppercase text.
 <br>
 <br>
 
@@ -145,7 +144,9 @@ li a:hover {
 <br>
 
 #### **THE FOOTER**
-Shown across all pages with the Copyright of the website protecting the content. Longer pages will include a "Back to top link and on pages where image content was externally sourced, a credit to the creator has been added to keep in-line with ethical standards, giving the audience confidence knowing the website is authentic and ethical.
+Shown across all pages, the footer includes the copyright information of the website protecting the my content. Longer pages will include a "Back to top" link and on pages where image content was externally sourced, a credit to the creator has been added to keep in-line with ethical standards, giving confidence to the audience to know the website is authentic and ethical.
+<br>
+<br>
 
 **Example HTML Code for Credits:**
 ``` html
@@ -161,7 +162,7 @@ Shown across all pages with the Copyright of the website protecting the content.
 <br>
 
 #### **THE FORM**
-Developed to enable the audience to connect with me, it features for main fields, first and last name, email address and a text area for your message. Complete with placeholder text in each field to guide the audience to fill out each field, it will disappear once typed into. Highlighted when the audience hovers over each field and send button to allow the message to be sent.
+Developed to enable the audience to connect with me, it features first and last name fields, an email address field and a text area for a message. Each field is highlighted when the audience hovers over it and is complete with placeholder text in each field to guide the audience to these fields, disappearing once typed in to. A send button allows the message to be sent direct to my email.
 <br>
 <br>
 
@@ -241,7 +242,7 @@ textarea {
 <br>
 
 #### **RESPONSIVENESS**
-Whilst there are many other features, the final feature to be highlighted is the pages responsivenes. Grid properties and CSS Flexbox properties are used in multiple areas of the websites. For the below example, I will draw your attention to my Social Media Box. The flexbox properties allow the images to flex into a column direction on smaller screens. 
+Whilst there are many other features, the final feature to be highlighted is the website's responsivenes. CSS Grid and CSS Flexbox properties are used in multiple areas of the website. For the below example, I will draw your attention to my Social Media Logo box on the Contact Me page. The flexbox properties allows the images to wrap into a row direction or flex into a column on smaller screens depending on the screens size.
 <br>
 <br>
 
@@ -308,13 +309,13 @@ Whilst there are many other features, the final feature to be highlighted is the
 <br>
 
 ## **SITEMAP**
-In the below site map, you will see the simple structure of the website and it's four pages with a basic overview of what is included on the page. As indicated, you can access any page from your active (current) page.
-![Sitemap](docs/Sitemap.jpeg)
+In the below site map, the simple structure of the website is shown. Consisting of four pages with a basic overview of what is included on each page. As indicated by the Sitemap, you can access any page from the active (current) page that the audience is on.
+![Sitemap](docs/Sitemap.png)
 <br>
 <br>
 
 ## **SCREENSHOTS**
-These screenshots will show the website's responsiveness across multiple devices. You may not see the whole screen on some screenshots however as it is a uniformed, they will be easy to understand. Leading through from mobile, to tablet and desktop views, screenshots are will be more relative to their viewport to demonstrate the responsiveness of the website, most content is shown in the first screenshots.
+These screenshots will show the website's responsiveness across multiple devices. The whole screen may not be visible on some screenshots however as the website follows a uniformed layout, the screenshots are easily followed. Leading through from mobile, to tablet and desktop views, some screenshots are will be more relative to their viewport to demonstrate the responsiveness of the website with most content shown mobile and tablet screenshots.
 <br>
 <br>
 
@@ -342,20 +343,20 @@ These screenshots will show the website's responsiveness across multiple devices
 <br>
 
 ## **TECH STACK**
-Below is a list of tools I used to develop my site:
+Below is a list of tools I used to develop the website and it's content:
 - [Balsamiq](https://balsamiq.com/) - for Wireframes/Mock-ups
 - [Ubuntu](https://ubuntu.com/) - for folder navigation, changes etc and for Git version control
 - [Git](https://git-scm.com/) - within Ubuntu, Git was used the version control system used
 - [Visual Studio Code](https://code.visualstudio.com/) - as the platform for coding
 - [HTML](https://whatwg.org/) - for the website's content
 - [CSS](https://www.w3.org/) - for the website's styling
-- Images - Created or captured by me and externally sourced 
-  (credits are referenced in the footer of the pages where these images exist)
 - [GitHub](https://github.com/) - for remote repository
 - [Netlify](https://www.netlify.com/) - for deploying
 - [Microsoft Powerpoint](https://www.microsoft.com/en-au/microsoft-365/powerpoint) - for creating the Slidedeck presentation
 - [Adobe Acrobat PDF](https://www.adobe.com/au/) - for generating the official public Slidedeck presentation
 - [Lucidchart](https://www.lucidchart.com/pages/) - for the Sitemap image
+<br>
+As mentioned previously, images that were externally sourced are have been referenced back to the creator in the footer of the pages where these images exist to keep inline with ethical standards. Other images featured on the website were either created or captured by myself.
 <br>
 <br>
 
