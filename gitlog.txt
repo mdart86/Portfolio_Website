@@ -1,0 +1,203 @@
+commit f31d2966bac4e4abf80e99ae8c8881c32478bc3c
+Author: mdart86 <mdart86@hotmail.com>
+Date:   Sun Nov 15 12:38:30 2020 +1000
+
+    commented out sri and move wireframe to docs folder
+
+commit 88c3cc173519cecb0ade53e62079e19785f99d04
+Author: mdart86 <mdart86@hotmail.com>
+Date:   Sun Nov 15 11:33:44 2020 +1000
+
+    additional contact to read me, sitemap update and slidedeck update and conversion to pdf
+
+commit c75a4dddb0fd4857add8e1d027f1c09231f1ad20
+Author: mdart86 <mdart86@hotmail.com>
+Date:   Sat Nov 14 23:11:52 2020 +1000
+
+    adding to readme.md
+
+commit b63ff644fc44ed6118dd8ce836365a4964e93b51
+Author: mdart86 <mdart86@hotmail.com>
+Date:   Sat Nov 14 22:59:13 2020 +1000
+
+    adding to readme.md
+
+commit b7f93598f7bd846517465c2596ad98a1e4453407
+Author: mdart86 <mdart86@hotmail.com>
+Date:   Sat Nov 14 21:54:11 2020 +1000
+
+    renaming of root directory
+
+commit 5da488f18c014b9b0f36197a94b30705d104a523
+Author: mdart86 <mdart86@hotmail.com>
+Date:   Sat Nov 14 19:10:08 2020 +1000
+
+    additional animations to header and hover styling on form in contact me page
+
+commit 3f673e97235cb3aa184767d5a2975f34391b5559
+Author: mdart86 <mdart86@hotmail.com>
+Date:   Sat Nov 14 17:39:48 2020 +1000
+
+    target blank update to ensure new tab is opened each time
+
+commit f9fa838af74140d278e37c5f7252671033a88cab
+Author: mdart86 <mdart86@hotmail.com>
+Date:   Sat Nov 14 17:21:27 2020 +1000
+
+    slidedeck content update
+
+commit a444662d31db852587c126da0ed363d98e5d9e4f
+Author: mdart86 <mdart86@hotmail.com>
+Date:   Sat Nov 14 17:03:15 2020 +1000
+
+    folder restructure
+
+commit 4ed6ff1dd83729072f3088ab5967667c611c30c8
+Author: mdart86 <mdart86@hotmail.com>
+Date:   Sat Nov 14 14:55:57 2020 +1000
+
+    header title and contact me message styling fixes
+
+commit 5ecfcaf7956a4629a0b0ccdb43699adaa2a94aff
+Author: mdart86 <mdart86@hotmail.com>
+Date:   Sat Nov 14 14:41:34 2020 +1000
+
+    additional fix of social media logos not opening in new tab
+
+commit 8459f9fd1a4ca00359c0f63a555b91a3f9ef7762
+Author: mdart86 <mdart86@hotmail.com>
+Date:   Sat Nov 14 14:33:46 2020 +1000
+
+    additional styling fix to social media card
+
+commit 6c7d28a8aa8072b9c458b6190d303d801a9f9e53
+Author: mdart86 <mdart86@hotmail.com>
+Date:   Sat Nov 14 14:24:11 2020 +1000
+
+    additional image hover effects, updates to slidedeck
+
+commit bd9d31def2fdec5dc2faf48a25840c989e6b3239
+Author: mdart86 <mdart86@hotmail.com>
+Date:   Sat Nov 14 13:58:45 2020 +1000
+
+    additional images, styling of about me and contact pages, updates to credits
+
+commit b3a75a698a404add142b3af35b3fa242d79faa6e
+Author: mdart86 <mdart86@hotmail.com>
+Date:   Sat Nov 14 11:01:34 2020 +1000
+
+    update of resume and social media pics, credits for photos added
+
+commit 6c567986503cfc17c799b4251a70101a86c7a6cc
+Author: mdart86 <mdart86@hotmail.com>
+Date:   Fri Nov 13 16:19:31 2020 +1000
+
+    adding comments to html page to note sections
+
+commit 33711af2b88defde5d3c25e13096140251fafd28
+Author: mdart86 <mdart86@hotmail.com>
+Date:   Fri Nov 13 10:23:16 2020 +1000
+
+    fix for social media logo in html and css
+
+commit 774b0099451066fd7161045b7a9795cd706bf416
+Author: mdart86 <mdart86@hotmail.com>
+Date:   Fri Nov 13 08:07:18 2020 +1000
+
+    additional styling to logo box
+
+commit 005f928116b9dff6e2bb79b690e5acc9ee8a0586
+Author: mdart86 <mdart86@hotmail.com>
+Date:   Thu Nov 12 23:58:45 2020 +1000
+
+    slidedeck completion and finishing touches on html and css
+
+commit 4b543e6b896312db3ad8ffc3d9dd60765a245b63
+Author: mdart86 <mdart86@hotmail.com>
+Date:   Thu Nov 12 21:35:14 2020 +1000
+
+    additional fixes and tidy up of html and css
+
+commit d0b698cb3788e30e99e92c70cde04a7e151831f1
+Author: mdart86 <mdart86@hotmail.com>
+Date:   Thu Nov 12 14:06:11 2020 +1000
+
+    slidedeck addition and sitemap
+
+commit 824fbad8d7bfdefe9007dc3975ad59f9861b010f
+Author: mdart86 <mdart86@hotmail.com>
+Date:   Thu Nov 12 12:02:01 2020 +1000
+
+    additional blog styling fixing
+
+commit bcaa84f955f3c484202c3ca8779f7d657466b8cc
+Author: mdart86 <mdart86@hotmail.com>
+Date:   Thu Nov 12 10:41:11 2020 +1000
+
+    tidying up of sytling across different viewpoints
+
+commit 0c332c72d39b981f77024c9efd264caeaad61d38
+Author: mdart86 <mdart86@hotmail.com>
+Date:   Thu Nov 12 10:18:21 2020 +1000
+
+    homepage styling for desktop
+
+commit d07dea3abbc972b33b287d7d19f11f48b3c13991
+Author: mdart86 <mdart86@hotmail.com>
+Date:   Thu Nov 12 09:46:09 2020 +1000
+
+    whole folder commit
+
+commit 549638093690481e86a9e36b74615d24107ebfa3
+Author: mdart86 <mdart86@hotmail.com>
+Date:   Wed Nov 11 21:28:58 2020 +1000
+
+    additional styling and new image
+
+commit 72430e1f9d7f1a8fe6876092d8228d6a9cff17fe
+Author: mdart86 <mdart86@hotmail.com>
+Date:   Tue Nov 10 21:51:28 2020 +1000
+
+    content update
+
+commit c6fdcd7b2bf00495729cfaa7c334be3d37f44005
+Author: mdart86 <mdart86@hotmail.com>
+Date:   Tue Nov 10 19:47:48 2020 +1000
+
+    readme blogs.html and style.css updates
+
+commit b078a310abda3153da951b73f4a4ad74f3dc9267
+Author: mdart86 <mdart86@hotmail.com>
+Date:   Mon Nov 9 22:49:07 2020 +1000
+
+    additional styling for tablet and more content to blog
+
+commit 4117db94e3b307adbd3011970be310d1475f5273
+Author: mdart86 <mdart86@hotmail.com>
+Date:   Sun Nov 8 21:38:24 2020 +1000
+
+    additional sytling
+
+commit cbafc2e1cbc688d1399e1e23fde86d28b8401888
+Author: mdart86 <mdart86@hotmail.com>
+Date:   Sun Nov 8 20:23:00 2020 +1000
+
+    additional contact and styling to config to mobile
+
+commit 732682237a12a79302a078c3df812bd6d41ba998
+Author: mdart86 <mdart86@hotmail.com>
+Date:   Sun Nov 8 17:45:29 2020 +1000
+
+    about me and blog page content and styling
+
+commit 696d473e23b65631cff1477d616c9f6ac63f3545
+Author: mdart86 <mdart86@hotmail.com>
+Date:   Sat Nov 7 21:06:30 2020 +1000
+
+    additional content to about me
+
+commit 37408b32a727357cc8009a58c38a3a08e4249106
+Author: mdart86 <mdart86@hotmail.com>
+Date:   Sat Nov 7 12:54:30 2020 +1000
+
+    update file structure
